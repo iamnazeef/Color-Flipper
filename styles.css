@@ -1,0 +1,60 @@
+body {
+    font-family: Poppins;
+    padding: 0;
+    margin: 0;
+}
+
+#simple,
+#hex {
+    margin-right: 50px;
+}
+
+.nav-bar {
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 150px;
+}
+
+.main {
+    /* border: 2px solid red; */
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.color-code {
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 28px;
+}
+
+button {
+    padding: 8px 15px;
+    font-family: Poppins;
+    font-weight: 600;
+    font-size: 22px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    text-decoration: none;
+}
